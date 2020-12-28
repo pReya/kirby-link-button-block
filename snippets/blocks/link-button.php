@@ -14,7 +14,7 @@ switch ($block->alignment()) {
 
 ?>
 
-<div class="k-block-type-button">
+<div class="k-block-type-link-button">
   <div class="button-container <?= $alignmentClass ?>">
     <a class="button-link<?= $block->fullWidth()->toBool() ? ' full-width' : '' ?><?= $block->iconAlignment() == "right" ? ' reverse' : '' ?>" href="<?= $block->target()->toUrl() ?>">
       <?php if ($block->icon()->isNotEmpty()) : ?>
