@@ -1,0 +1,41 @@
+name: Link Button
+icon: bolt
+fields:
+  target:
+    required: true
+    label: Target URL
+    type: url
+  caption:
+    required: true
+    label: Caption
+    type: text
+  fullWidth:
+    width: 1/3
+    label: Full Width?
+    type: toggle
+    text: 
+      - "No"
+      - "Yes"
+  alignment:
+    width: 1/3
+    label: Button Alignment
+    type: radio
+    default: left
+    options:
+      left: Left
+      center: Center
+      right: Right
+  iconAlignment:
+    width: 1/3
+    label: Icon Alignment
+    type: radio
+    default: left
+    options:
+      left: Left
+      right: Right
+  icon:
+    label: Icon SVG
+    type: textarea
+    buttons: false
+    font: monospace
+    help: Leave empty if you don't want to display any icon.
