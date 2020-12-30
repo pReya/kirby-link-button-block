@@ -1,0 +1,15 @@
+{
+  "name": "preya/link-button-block",
+  "description": "Custom block plugin for Kirby CMS that adds a link which is styled like a button.",
+  "type": "kirby-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Moritz Stueckler",
+      "homepage": "https://github.com/pReya/"
+    }
+  ],
+  "require": {
+    "getkirby/composer-installer": "^1.2.1"
+  }
+}

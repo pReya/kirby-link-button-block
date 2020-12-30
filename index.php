@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('welcome-werkstatt/link-button-block', [
+Kirby::plugin('preya/link-button-block', [
   'blueprints' => [
     'blocks/link-button' => __DIR__ . '/blueprints/blocks/link-button.yml'
   ],
