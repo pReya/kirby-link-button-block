@@ -1,4 +1,4 @@
-panel.plugin("welcome-werkstatt/link-button-block", {
+panel.plugin("preya/link-button-block", {
   blocks: {
     "link-button": {
       computed: {
