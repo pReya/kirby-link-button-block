@@ -1,4 +1,4 @@
-panel.plugin("preya/link-button-block", {
+panel.plugin("preya/kirby-link-button-block", {
   blocks: {
     "link-button": {
       computed: {
