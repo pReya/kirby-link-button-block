@@ -9,7 +9,11 @@ fields:
       - "Download"
   target:
     label: Target URL
-    type: url
+    type: link
+    options:
+      - url
+      - page
+      - email
     required: true
     when:
       targetIsDownload: false

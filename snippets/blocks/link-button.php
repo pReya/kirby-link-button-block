@@ -16,7 +16,7 @@ switch ($block->alignment()) {
 
 <div class="k-block-type-link-button">
   <div class="button-container <?= $alignmentClass ?>">
-    <a class="button-link<?= $block->fullWidth()->toBool() ? ' full-width' : '' ?><?= $block->iconAlignment() == "right" ? ' reverse' : '' ?>" href="<?= $block->targetIsDownload()->toBool() ? $block->downloadTarget()->toFile()->url() : $block->target()->toUrl()  ?>" <?= $block->targetIsDownload()->toBool() ? ' download' : '' ?>>
+    <a class="button-link<?= $block->fullWidth()->toBool() ? ' full-width' : '' ?><?= $block->iconAlignment() == "right" ? ' reverse' : '' ?>" href="<?= $block->targetIsDownload()->toBool() ? $block->downloadTarget()->toFile()->url() : $block->target() ?>" <?= $block->targetIsDownload()->toBool() ? ' download' : '' ?>>
       <?php if ($block->icon()->isNotEmpty()) : ?>
         <div class="button-icon">
           <?= $block->icon() ?>
