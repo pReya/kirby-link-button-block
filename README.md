@@ -4,5 +4,3 @@ This is a [custom block plugin](https://getkirby.com/docs/reference/panel/fields
 
 ![Kirby Custom Block plugin to create a link button](/kirby-link-button-block.png)
 
-## Problems / ToDos
-* Figure out a way to share markup and CSS between both, the frontend snippet and the Panel preview, b/c they're identical
